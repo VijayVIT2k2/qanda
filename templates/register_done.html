@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}Register Done{% endblock %}
+{% block body %}
+<div class="container mt-4 register-style">
+    <p>Your account has been created. <a href="{% url 'login' %}">Login</a></p>
+</div>
+{% endblock %}
